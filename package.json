@@ -1,0 +1,32 @@
+{
+  "name": "acp",
+  "version": "0.0.1",
+  "description": "Data-agnostic admin interface generator for CRUD applications",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samt/acpjs"
+  },
+  "keywords": [
+    "admin",
+    "interface",
+    "generator",
+    "crud",
+    "express"
+  ],
+  "author": "Sam Thompson <git@samt.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samt/acpjs/issues"
+  },
+  "homepage": "https://github.com/samt/acpjs",
+  "dependencies": {
+    "express": "4.x.x"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
