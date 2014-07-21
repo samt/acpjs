@@ -1,6 +1,6 @@
 {
   "name": "acp",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "description": "Data-agnostic admin interface generator for CRUD applications",
   "main": "index.js",
   "scripts": {
