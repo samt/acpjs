@@ -1,6 +1,4 @@
-# ACP
-
-[![Build Status](https://travis-ci.org/samt/acpjs.png)](https://travis-ci.org/samt/acpjs)
+# Admin Control Panel [![Build Status](https://travis-ci.org/samt/acpjs.png)](https://travis-ci.org/samt/acpjs)
 
 Data-agnostic admin interface generator for CRUD applications
 
@@ -58,7 +56,7 @@ adm.listen(3000); // identical to express's app.listen()
 
 Because acp is an express application, we can simply mount it on top of another
 application currently being set up. This allows you to write your own custom
-user-facing front-end and allow you to use acp to mange your data behind.
+user-facing front-end and acp to mange your data behind.
 
 ```javascript
 var adm = acp();
