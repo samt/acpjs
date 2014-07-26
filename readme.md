@@ -132,6 +132,8 @@ admin.page('Dashboard', {
 
 This is the main class of the Admin Control Panel Interface.
 
+Extends `EventEmiter`
+
 #### `ACP.define(name, options)`
 
 Defines a collection of data to keep track of
