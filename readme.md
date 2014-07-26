@@ -2,6 +2,11 @@
 
 Data-agnostic admin interface generator for CRUD applications
 
+**Note from Sam**:
+This idea exists almost totally in concept. There is alpha code being written,
+but it's very rudimentary at this point and is not guaranteed to work at all.
+I've published to NPM only so that the name is reserved.
+
 ## Abstract
 
 The problem with crud apps is they are all are basically the same, yet we find
@@ -26,9 +31,9 @@ requirements that remain relatively constant:
 
 In addition, we always have data coming in from somewhere. Sometimes it's all
 from a database, sometimes it's from flat files, and even sometimes it's from
-the network. The problem with other frameworks is they are all dependent on one
-type of data retrieval. If you try to exit the box they put you in, you're
-going to have a bad time.
+the network. The problem with other frameworks is they are all dependent (or
+completely revolve around) on one type of data retrieval, usually a database.
+
 
 ## Requirements
 
@@ -195,6 +200,8 @@ Is just a plain object with the following properties:
   ACP.DROPDOWN_MULI, ACP.DATE_PICKER, ACP.DATETIME_PICKER, ACP.RADIO, ACP.CHECKBOX
 
 ### Class `ACP.Widget`
+
+Plain object with properties:
 
 - `size` Number: 1-12, grid width. Default: 3
 - `template` String: Either a built in template or user-defined custom path
